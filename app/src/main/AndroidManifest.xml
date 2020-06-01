@@ -26,6 +26,7 @@
         <activity android:name="com.abhi.animationsdemo.activity.TranslateAndRotateSpringAnimationActivity" />
         <activity android:name="com.abhi.animationsdemo.activity.TranslateFlingAnimationActivity" />
         <activity android:name="com.abhi.animationsdemo.activity.TranslateSpringAnimationActivity" />
+        <activity android:name=".activity.AnimationOneActivity" />
     </application>
 
 </manifest>
