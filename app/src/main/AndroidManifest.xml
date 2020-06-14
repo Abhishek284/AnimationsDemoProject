@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.abhi.animationsdemo">
+        package="com.abhi.animationsdemo">
 
     <application
             android:allowBackup="true"
@@ -9,23 +9,25 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name="com.abhi.animationsdemo.MainActivity">
-
-        </activity>
-        <activity android:name="com.abhi.animationsdemo.SelectionActivity" >
+        <activity android:name=".activity.PassageTwoActivity"></activity>
+        <activity android:name=".activity.PassageActivityOne" android:theme="@style/Full"/>
+        <activity android:name=".activity.AnimationThreeActivity" />
+        <activity android:name=".activity.AnimationTwoActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SelectionActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.abhi.animationsdemo.TransistionActivity" />
-        <activity android:name="com.abhi.animationsdemo.BasicAnimation" />
-        <activity android:name="com.abhi.animationsdemo.activity.PhysicsAnimationActivity" />
-        <activity android:name="com.abhi.animationsdemo.activity.ChainedSpringAnimationActivity" />
-        <activity android:name="com.abhi.animationsdemo.activity.TranslateAndRotateSpringAnimationActivity" />
-        <activity android:name="com.abhi.animationsdemo.activity.TranslateFlingAnimationActivity" />
-        <activity android:name="com.abhi.animationsdemo.activity.TranslateSpringAnimationActivity" />
+        <activity android:name=".TransistionActivity" />
+        <activity android:name=".BasicAnimation" />
+        <activity android:name=".activity.PhysicsAnimationActivity" />
+        <activity android:name=".activity.ChainedSpringAnimationActivity" />
+        <activity android:name=".activity.TranslateAndRotateSpringAnimationActivity" />
+        <activity android:name=".activity.TranslateFlingAnimationActivity" />
+        <activity android:name=".activity.TranslateSpringAnimationActivity" />
         <activity android:name=".activity.AnimationOneActivity" />
     </application>
 

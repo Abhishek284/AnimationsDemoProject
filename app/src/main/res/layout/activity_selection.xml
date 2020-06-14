@@ -33,7 +33,26 @@
             android:id="@+id/animationOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Animation One" />
+            android:text="Form Animation" />
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/animationTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shimmer Animation" />
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/animationThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lottie Animation" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/animationFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transit Splash" />
 
 
 
