@@ -50,6 +50,8 @@ class SelectionActivity : AppCompatActivity() {
         }
     }
 
+    var secret = "jkheskfjhaskfhalkjhfkaj"
+
     private fun findNumberOfCharactersA(toString: String): Int {
         var count = 0
         var max = 0
