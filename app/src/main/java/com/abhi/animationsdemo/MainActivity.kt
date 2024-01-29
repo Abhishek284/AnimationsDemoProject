@@ -54,4 +54,9 @@ class MainActivity : AppCompatActivity() {
     private fun setPageTransformer(transformer: ViewPager.PageTransformer ) {
         viewPager!!.setPageTransformer(true, transformer)
     }
+
+    override fun onResume() {
+        super.onResume()
+
+    }
 }
