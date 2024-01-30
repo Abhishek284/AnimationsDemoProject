@@ -13,6 +13,7 @@ class HingeTransformation : ViewPager.PageTransformer {
         page.pivotY = 0f
 
 
+        // Test code comment
         when {
             position < -1 -> // [-Infinity,-1)
                 // This page is way off-screen to the left.
