@@ -43,6 +43,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set up JAVA
+        uses: actions/setup-java@v2
+        with:
+          distribution: "temurin"
+          java-version: 17
       - name: Analyze with SonarCloud
 
         # You can pin the exact commit or the version.
