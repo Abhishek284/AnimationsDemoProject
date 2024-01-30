@@ -1,7 +1,9 @@
 package com.abhi.animationsdemo.transformers
 
+import android.util.Log
 import android.view.View
 import androidx.viewpager.widget.ViewPager
+import java.security.KeyStore
 
 class HingeTransformation : ViewPager.PageTransformer {
     override fun transformPage(page: View, position: Float) {
@@ -9,6 +11,7 @@ class HingeTransformation : ViewPager.PageTransformer {
         page.translationX = -position * page.width
         page.pivotX = 0f
         page.pivotY = 0f
+
 
         when {
             position < -1 -> // [-Infinity,-1)
