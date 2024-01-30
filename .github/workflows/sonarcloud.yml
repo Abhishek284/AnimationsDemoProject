@@ -43,7 +43,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup jdk-17
 
       - name: Analyze with SonarCloud
 
