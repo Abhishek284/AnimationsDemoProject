@@ -9,15 +9,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "18:40"
+      time: "19:51"
       timezone: "Asia/Kolkata"
     open-pull-requests-limit: 20
     target-branch: "master"
-  - package-ecosystem: "github-actions" # See documentation for possible values
-      directory: "/" # Location of package manifests
-      schedule:
-        interval: "daily"
-        time: "19:24"
-        timezone: "Asia/Kolkata"
-      open-pull-requests-limit: 20
-      target-branch: "master"
