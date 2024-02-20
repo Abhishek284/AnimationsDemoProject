@@ -5,11 +5,11 @@
 
 version: 2
 updates:
-  - package-ecosystem: "maven" # See documentation for possible values
+  - package-ecosystem: "gradle" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "11:42"
+      time: "11:58"
       timezone: "Asia/Kolkata"
     open-pull-requests-limit: 22
     target-branch: "master"
